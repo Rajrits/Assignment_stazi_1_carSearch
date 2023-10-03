@@ -1,0 +1,222 @@
+html,body{
+  background-color: #ecf0f6;
+}
+.APP{
+  height: 100vh;
+ 
+
+}
+/* --------------------------------HEADER STYLING ------------------------ */
+.Head_container{
+  display: flex;
+  justify-content: center;
+}
+.navbar{
+  margin-top: 5px;
+ width: 95%;
+ height: 70px;
+ background-color: #f1f5fc;
+ border-radius: 25px;
+ box-shadow:1px 1px 10px gray;
+ border: 2px solid white;
+}
+
+.searchbar{
+ 
+  width: 350px;
+   padding: 17px;
+  margin-left: 10px;
+}
+#search{
+  
+  padding: 10px;
+  border: none;
+  min-width: 350px;
+  border-radius: 15px;
+  
+  
+}
+i{
+  left: 370px;
+  font-size: 21px;
+  margin-right: 10px;
+  top: 30px;
+  padding-left: 10px;
+  position: absolute;
+  
+  
+}
+/* -----------------------------------------HEADER STYLING END----------------------------- */
+/* -------------------------------------------Car_card Styling -------------------------------- */
+.Car_card_container{
+  margin: 1%;
+  margin-top: 30px;
+  border: 2px solid white;
+ 
+  
+  width: 600px;
+  border-radius: 30px;
+  background-color: #f1f5fb;
+  box-shadow:1px 1px 10px gray;
+}
+.Car_card_img{
+  margin: 13px;
+  width: 95%;
+  height: 50%;
+  border-radius: 25px;
+}
+.name_and_year{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px 20px 0px 15px;
+ 
+}
+.name{
+  font-size: 40px;
+}
+.year{
+  font-size: 20px;
+  padding: 4px 20px 4px 20px;
+  border-radius: 15px;
+  border: 2px dashed blue;
+}
+.Car_info{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 10px;
+  margin: 15px;
+  margin-left: 20px;
+}
+.feature{
+  font-size: 21px;
+}
+.icon_img{
+   height: 21px;
+   color: blue;
+   margin-right: 8px;
+}
+.separater::after{
+  content: " ";
+  display: block;
+  border: 2px solid lightgray;
+  width: 93%;
+  margin: 20px;
+ 
+  position: relative;
+}
+.card_footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.price{
+  margin-left: 20px;
+  font-size: 25px;
+  font-weight: 500;
+}
+.amount{
+  font-size: 50px;
+  font-weight: 400;
+}
+.btn{
+  background-color: #4999ed;
+  width: 120px;
+  height: 45px;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  font-size: 20px;
+  margin: 20px;
+  padding: 10px;
+  font-weight: 400;
+}
+.main-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 20px 20px 20px 53px;
+  min-height: 100vh;
+}
+.search_container{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 20px 20px 20px 53px;
+  min-height: 100vh;
+}
+/* -------------------------------------Car_card Styling and main container end-------------------- */
+/* -----------------------------------Footer container------------------ */
+
+.footer_container{
+  display: flex;
+  justify-content: center;
+}
+.footerbar{
+  margin-top: 5px;
+  margin-bottom: 10px;
+  width: 95%;
+  height: 70px;
+  background-color: #f1f5fc;
+  border-radius: 25px;
+  box-shadow:1px 1px 10px gray;
+  border: 2px solid white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.pagination{
+  display: flex;
+  align-items: center;
+  list-style: none;
+  margin: 30px;
+}
+.pagination a{
+  margin: 5px;
+  text-decoration: none;
+}
+.footerPosition{
+  position: fixed;
+}
+.currPage{
+  font-size: 25px;
+  font-weight: 600;
+  margin: 32px;
+}
+.active{
+  padding: 6px 18px 6px 18px;
+  font-size: 22px;
+    font-weight: 650;
+color: white;
+  height: 30px;
+  
+    background: rgb(148, 207, 228);
+    width: 50px;
+    border-radius: 10px;
+}
+.page{
+  
+  padding: 6px 10px 6px 10px;
+  font-size: 22px;
+    font-weight: 650;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  margin: 10px;
+    background: white;
+    width: 30px;
+    border-radius: 10px;
+}
+.arrow{
+  height: 30px;
+  padding: 6px 10px 6px 10px;
+  font-size: 50px;
+    font-weight: 650;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  margin: 10px;
+    background: white;
+    width: 30px;
+    border-radius: 10px;
+}
